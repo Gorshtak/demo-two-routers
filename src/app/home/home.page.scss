@@ -1,1 +1,14 @@
-
+.content-wrapper {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    .content {
+        display: flex;
+        &.main-content {
+            flex: 2;
+        }
+        &.side-content {
+            flex: 1;
+        }
+    }
+}
